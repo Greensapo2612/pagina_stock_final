@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Iniciar la sesión
         $_SESSION['nombre'] = $usuario;
         // Redirigir al usuario a la página de inicio o a donde sea necesario.
-        header("Location: inicio.html");
+        header("Location: menu.html");
         exit;
     } else {
         // Si la validación falla, muestra un mensaje de error o redirige al usuario a la página de inicio de sesión con un mensaje de error.
